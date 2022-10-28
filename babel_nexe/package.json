@@ -1,0 +1,15 @@
+{
+  "name": "babel_nexe",
+  "version": "1.0.0",
+  "description": "# 導入メモ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/standalone": "^7.20.0"
+  }
+}

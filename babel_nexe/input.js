@@ -1,0 +1,1 @@
+const getMessage = () => "Hello World";
