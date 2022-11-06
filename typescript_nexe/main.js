@@ -1,6 +1,6 @@
 const ts = require("typescript");
 
-const source = "let x: string  = 'string';let v: string = 'hello';";
+const source = "import 'bar.js';let x: string  = 'string';let v: string = 'hello';";
 
 let result = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS }});
 
